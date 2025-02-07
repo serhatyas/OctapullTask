@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctapullTask", "OctapullTask\OctapullTask.csproj", "{53255EAB-40A2-4404-9676-8707D984B688}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Octapull.Api", "OctapullTask\Octapull.Api.csproj", "{53255EAB-40A2-4404-9676-8707D984B688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctapullTask.Core", "OctapullTask.Core\OctapullTask.Core.csproj", "{82A095FA-C2FC-4272-AE6E-5ECBDB5B99D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctapullTask.Repositroy", "OctapullTask.Repositroy\OctapullTask.Repositroy.csproj", "{D8D5402F-A682-4112-BF50-8728EE6EBA3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctapullTask.Service", "OctapullTask.Service\OctapullTask.Service.csproj", "{5C8187E6-73BC-4D62-B7FD-9F83863BAD83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{53255EAB-40A2-4404-9676-8707D984B688}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53255EAB-40A2-4404-9676-8707D984B688}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53255EAB-40A2-4404-9676-8707D984B688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82A095FA-C2FC-4272-AE6E-5ECBDB5B99D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82A095FA-C2FC-4272-AE6E-5ECBDB5B99D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82A095FA-C2FC-4272-AE6E-5ECBDB5B99D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82A095FA-C2FC-4272-AE6E-5ECBDB5B99D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D5402F-A682-4112-BF50-8728EE6EBA3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D5402F-A682-4112-BF50-8728EE6EBA3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D5402F-A682-4112-BF50-8728EE6EBA3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D5402F-A682-4112-BF50-8728EE6EBA3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C8187E6-73BC-4D62-B7FD-9F83863BAD83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C8187E6-73BC-4D62-B7FD-9F83863BAD83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C8187E6-73BC-4D62-B7FD-9F83863BAD83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C8187E6-73BC-4D62-B7FD-9F83863BAD83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
