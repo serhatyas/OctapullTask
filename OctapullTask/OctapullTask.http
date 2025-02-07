@@ -1,0 +1,6 @@
+@OctapullTask_HostAddress = http://localhost:5012
+
+GET {{OctapullTask_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
